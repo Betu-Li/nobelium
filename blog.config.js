@@ -38,25 +38,25 @@ measurementId: '' // e.g: G-XXXXXXXXXX
 },
 comment: {
 // support provider: gitalk, utterances, cusdis
-provider: '', // leave it empty if you don't need any comment plugin
-gitalkConfig: {
-repo: '', // The repository of store comments
-owner: '',
-admin: [],
-clientID: '',
-clientSecret: '',
-distractionFreeMode: false
-},
-utterancesConfig: {
-repo: ''
-},
-cusdisConfig: {
-appId: '31fe9849-c1af-4119-8f02-bf7a38d16058', // data-app-id
-host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
-scriptSrc: 'https://cusdis.com/js/cusdis.es.js' // change this if you're using self-hosted version
-}
-},
-isProd: process.env.VERCEL_ENV === 'production' // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
+    provider: '', // leave it empty if you don't need any comment plugin
+    gitalkConfig: {
+      repo: '', // The repository of store comments
+      owner: '',
+      admin: [],
+      clientID: '',
+      clientSecret: '',
+      distractionFreeMode: false
+    },
+    utterancesConfig: {
+      repo: ''
+    },
+    cusdisConfig: {
+      appId: '31fe9849-c1af-4119-8f02-bf7a38d16058', // data-app-id
+      host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
+      scriptSrc: 'https://cusdis.com/js/cusdis.es.js' // change this if you're using self-hosted version
+    }
+  },
+  isProd: process.env.VERCEL_ENV === 'production' // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
 }
 // export default BLOG
 module.exports = BLOG
