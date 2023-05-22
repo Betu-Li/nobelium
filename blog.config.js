@@ -2,7 +2,7 @@ const BLOG = {
   title: 'CRAIGARY',
   author: 'Yuay',
   email: 'yuayagira@outlook.com',
-  link: 'https://nobelium.vercel.app',
+  link: 'https://notion.yuay.com.cn',
   description: 'This gonna be an awesome website!',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
