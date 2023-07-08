@@ -38,7 +38,7 @@ measurementId: '' // e.g: G-XXXXXXXXXX
 },
 comment: {
 // support provider: gitalk, utterances, cusdis
-    provider: 'cusdis', // leave it empty if you don't need any comment plugin
+    provider: 'utterances', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
       repo: '', // The repository of store comments
       owner: '',
@@ -48,7 +48,7 @@ comment: {
       distractionFreeMode: false
     },
     utterancesConfig: {
-      repo: ''
+      repo: 'YuayYeonhi/comment'
     },
     cusdisConfig: {
       appId: '31fe9849-c1af-4119-8f02-bf7a38d16058', // data-app-id
