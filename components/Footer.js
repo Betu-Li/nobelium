@@ -1,5 +1,5 @@
-import { useConfig } from '@/lib/config'
 import Vercel from '@/components/Vercel'
+import { useConfig } from '@/lib/config'
 const Footer = ({ fullWidth }) => {
   const BLOG = useConfig()
 
@@ -16,7 +16,7 @@ const Footer = ({ fullWidth }) => {
       <div className="my-4 text-sm leading-6">
         <div className="flex align-baseline justify-between flex-wrap">
           <p>
-            © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`} _Next.js & Notion
+            © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`} Next.js & Notion
           </p>
           <Vercel />
         </div>
