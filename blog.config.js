@@ -1,8 +1,8 @@
 const BLOG = {
 title: 'GDADMN',
 author: 'Yuay',
-email: '2831352144@qq.com',
-link: 'https://yuay.ac.cn',
+email: 'gdadmn@yuay.ac.cn',
+link: 'https://gdadmn.rakugaki.cn',
 description: 'Game Design And Development Manuscript Notes',
 lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
 timezone: 'Asia/Shanghai', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
@@ -18,9 +18,9 @@ showAbout: true,
 showArchive: true,
 autoCollapsedNavBar: false, // The automatically collapsed navigation bar
 ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-socialLink: 'https://yuay.flowus.cn/',
+socialLink: 'hhttps://gdadmn.rakugaki.cn',
 seo: {
-keywords: ['Blog', 'Yuay', 'Game'],
+keywords: ['Blog', 'Yuay', 'Game','Notes'],
 googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
 },
 notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
