@@ -1,5 +1,3 @@
-
-
 # [GDADMN](https://gdadmn.yuay.ac.cn)
 
 GDADMN stands for Game Design and Development Manuscript Notes.
@@ -10,9 +8,7 @@ This repo is what I use to power GDADMN.
 
 It uses [Notion](https://notion.com/) as a CMS,[react-notion-x](https://github.com/NotionX/react-notion-x), [Next.Js](https://nextjs.org/), and deployed on [Vercel]([https://Vercel.com/](https://vercel.com?utm_source=Craigary&utm_campaign=oss)). Comments powered by [Utterances](https://Utteranc.es/).
 
-
-
-Site: [https://gdadmn.yuay.ac.cn/](https://gdadmn.yuay.ac.cn/)
+Site: [https://gdadmn.rakugaki.cn/](https://gdadmn.rakugaki.cn/) and [https://gdadmn.yuay.ac.cn/](https://gdadmn.yuay.ac.cn/)
 
 <details><summary>Screenshot</summary>
 <a href="https://gdadmn.yuay.ac.cn/"><img src="https://s1.ax1x.com/2023/07/13/pChHthV.png" alt="pChHthV.png" border="0" /></a>
@@ -53,4 +49,5 @@ Site: [https://gdadmn.yuay.ac.cn/](https://gdadmn.yuay.ac.cn/)
 - **Comments**: [Utterances](https://Utteranc.es/)
 
 # Nobelium
+
 **More information can be found in the repository**: [nobelium](https://github.com/craigary/nobelium)
